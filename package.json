@@ -1,0 +1,38 @@
+{
+	"name": "conjectual",
+	"version": "0.0.1",
+	"license": "MIT",
+	"main": "dist/cli.js",
+	"bin": "dist/cli.js",
+	"type": "module",
+	"engines": {
+		"node": ">=16"
+	},
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch",
+		"start": "node ."
+	},
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"@inkjs/ui": "^1.0.0",
+		"ink": "^4.1.0",
+		"meow": "^11.0.0",
+		"react": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.32",
+		"@typescript-eslint/eslint-plugin": "^6.21.0",
+		"@typescript-eslint/parser": "^6.21.0",
+		"chalk": "^5.2.0",
+		"eslint": "^8.56.0",
+		"eslint-config-standard-with-typescript": "^43.0.1",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-n": "^16.6.2",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-react": "^7.33.2",
+		"typescript": "^5.3.3"
+	}
+}

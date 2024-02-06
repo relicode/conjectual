@@ -15,3 +15,6 @@ $ node conjectual --help
   Usage
     $ node conjectual
 ```
+
+![output](https://github.com/relicode/conjectual/assets/5746625/75ea0080-58e8-4b2e-b597-30317b9e9cd3)
+
